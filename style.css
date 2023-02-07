@@ -1,0 +1,272 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: 'Guaruja Neue', sans-serif;
+}
+
+body {
+    background: #1d2630;
+    display: flex;
+}
+
+header {
+    width: 20%;
+    height: 100vh;
+}
+
+header .cardPortret {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    text-align: center;
+    width: 250px;
+}
+
+.cardPortret h1 {
+    margin: 5px auto;
+    color: white;
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 10px rgb(23, 206, 197), 0 0 10px rgb(23, 206, 197), 0 0 10px rgb(23, 206, 197);
+}
+
+header img {
+    display: inline-block;
+    border-radius: 5%;
+    box-shadow: 0 0 40px rgba(0, 0, 0, 0.144), 0 0 40px rgba(0, 0, 0, 0.144), 0 0 40px rgba(0, 0, 0, 0.144);
+    transition: 300ms;
+}
+
+header img:hover {
+    transform: translate(5px, 5px) scale(1.05);
+}
+
+.aboutMe {
+    margin: 20px auto;
+    background: #202a35;
+    display: block;
+}
+
+.aboutMe h2 {
+    color: #fff;
+}
+
+.aboutMe span {
+    font-size: 24px;
+    color: #fff;
+}
+
+.aboutMe p {
+    background: linear-gradient(345deg, #267591, rgb(23, 206, 197) 80%);
+    color: #202a35;
+    font-weight: bold;
+}
+
+
+.skill {
+    display: flex;
+    justify-content: center;
+    color: wheat;
+    font-weight: 700;
+    font-size: 24px;
+}
+
+.skills h3 {
+    color: white;
+}
+
+
+
+.load_container {
+    width: 100%;
+    height: 20px;
+    align-items: center;
+    border: 2px solid #267591;
+}
+
+.load_container div {
+    border-radius: 20px;
+    height: 17px;
+    width: 100%;
+    background: rgb(23, 206, 197);
+}
+
+#skill2 {
+    width: 99%;
+}
+
+#skill3 {
+    width: 85%;
+}
+
+#skill4 {
+    width: 70%;
+}
+
+#skill5 {
+    width: 90%;
+}
+
+main {
+    width: 100%;
+}
+
+.portfolio {
+    margin: 35px auto;
+    display: flex;
+    justify-content: center;
+    color: rgb(23, 206, 197);
+    font-size: 24px;
+    font-weight: bold;
+    letter-spacing: 0.2em;
+    text-decoration: underline;
+}
+
+.portfolio h2::before {
+    content: '< ';
+}
+
+.portfolio h2::after {
+    content: ' />';
+}
+
+.info {
+    margin: 0 auto;
+    width: 80%;
+}
+
+.about_me {
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.about_me .capitalize {
+    font-size: 24px;
+    font-weight: 900;
+    color: rgb(39, 194, 199);
+    letter-spacing: 0.1em;
+    text-shadow: 0 0 2px rgb(63, 211, 216);
+}
+
+.borderLine {
+    border-radius: 20px;
+    box-shadow: 0 0 5px rgb(23, 206, 197), 0 0 5px rgb(23, 206, 197), 0 0 1px rgb(23, 206, 197);
+    width: 80%;
+    margin: 50px auto;
+    height: 5px;
+    background: rgb(23, 206, 197);
+}
+
+.experience {
+    display: flex;
+    justify-content: center;
+    width: 80%;
+}
+
+.dop_info {
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    color: rgb(23, 206, 197);
+    font-weight: 700;
+
+}
+
+.extra_info_title {
+    display: flex;
+    justify-content: center;
+}
+
+.extra_info {
+    padding: 5px 10px;
+    border: 2px inset orange;
+    transition: 300ms;
+    text-shadow: 0 0 10px yellow, 0 0 10px yellow, 0 0 10px yellow, ;
+    box-shadow: 10px 10px 5px rgba(255, 255, 0, 0.151);
+}
+
+.extra_info:hover {
+    transform: scale(1.05);
+    box-shadow: 25px 25px 20px rgba(255, 255, 0, 0.151);
+}
+
+.extra_info a {
+    font-weight: 600;
+    color: rgb(255, 166, 0);
+}
+
+.audioName {
+    border-radius: 20px;
+    background: #384a5e9b;
+    display: flex;
+    margin: 10px auto;
+    text-align: center;
+    justify-content: space-between;
+    width: 40%;
+}
+
+.audioFlex {
+    width: 40%;
+    margin: 0 auto;
+    display: flex;
+}
+
+.audioName h2 {
+    color: #fff;
+
+    width: 100%;
+}
+
+.audio {
+    border-radius: 20px;
+    height: 50px;
+    align-items: center;
+    background: #267591;
+    width: 20%;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnHover {
+    transition: 200ms;
+    cursor: pointer;
+}
+
+.btnHover:hover {
+    transform: scale(1.5);
+}
+
+
+.extra_info {
+    margin: 15px auto;
+    width: 80%;
+
+}
+
+.extra_info {
+    font-size: 20px;
+    font-weight: 400;
+    color: #fff;
+    letter-spacing: 0.1em;
+}
+
+.github {
+    width: 80%;
+    margin: 10px auto;
+    color: white;
+    height: auto;
+    justify-content: center;
+    transition: 200ms;
+}
+
+.github div a {
+    list-style-type: none;
+    text-decoration: none;
+    font-size: 20px;
+    color: orangered;
+
+}
+
+.github:hover {
+    transform: scale(1.1) translate(3%, 5%);
+}
